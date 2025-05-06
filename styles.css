@@ -50,10 +50,6 @@ h1 {
       background: rgba(0, 0, 0, 0.7);
       z-index: 9999;
     }
-
-    #fullscreenBtn {
-        display: none;
-    }
     
     .dialog,
     .subtitles-dialog {
