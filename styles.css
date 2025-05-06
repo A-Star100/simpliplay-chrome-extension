@@ -50,7 +50,11 @@ h1 {
       background: rgba(0, 0, 0, 0.7);
       z-index: 9999;
     }
-    
+
+    #ccBtn {
+      display: none;
+    }
+
     .dialog,
     .subtitles-dialog {
       position: absolute;
