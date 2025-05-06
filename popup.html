@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Security-Policy" content="
     default-src 'self'; 
     script-src 'self'; 
-    style-src *; 
+    style-src 'self'; 
     img-src 'self' data:; 
     media-src * blob: file:; 
     connect-src *;
@@ -17,15 +17,9 @@
     form-action 'self';
     worker-src 'self' blob:;
   ">
-
-<style>
-  /* Hide the full-screen button */
-  video::-webkit-media-controls-fullscreen-button {
-            display: none;
-        }
-</style>
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fullscreen.css">
   <script src="lib/dash.js"></script>
   <script src="lib/hls.js"></script>
   <title>SimpliPlay</title>
