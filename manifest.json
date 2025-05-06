@@ -1,0 +1,10 @@
+{
+  "name": "SimpliPlay",
+  "description": "SimpliPlay media player, now in your browser",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "simpliplay.html",
+    "default_icon": "simpliplay-extension.png"
+  }
+}
