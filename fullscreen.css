@@ -1,4 +1,8 @@
   /* Hide the full-screen button */
   video::-webkit-media-controls-fullscreen-button {
             display: none;
-        }
+  }
+
+  #fullscreenBtn {
+    display: none;
+  }
