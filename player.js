@@ -117,7 +117,7 @@ submitUrlBtn.addEventListener('click', () => {
       player.reset()
       player = null
     }
-    if (url.toLowerCase().includes('.m3u8') || url.toLowerCase().includes('.m3u')) {
+    if (url.toLowerCase().endsWith('.m3u8') || url.toLowerCase().endsWith('.m3u')) {
       // HLS stream
       if (Hls.isSupported()) {
         mediaPlayer.style.display = 'flex'; // Hide the native video player
@@ -137,7 +137,7 @@ submitUrlBtn.addEventListener('click', () => {
         customControls.style.display = 'flex';
         urlInput.value = "";
       }
-    } else if (url.toLowerCase().includes('.mpd')) {
+    } else if (url.toLowerCase().endsWith('.mpd')) {
       mediaPlayer.style.display = 'flex'; // Hide the native video player
       mediaPlayer.pause();
       player = dashjs.MediaPlayer().create();
