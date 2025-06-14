@@ -1,8 +1,12 @@
 {
   "name": "SimpliPlay",
   "description": "SimpliPlay media player, now in your browser",
-  "version": "1.1",
+  "version": "2",
   "manifest_version": 3,
+  "permissions": ["sidePanel"],
+  "side_panel": {
+    "default_path": "sidepanel/simpliplay.html"
+  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": "simpliplay-extension.png"
