@@ -383,5 +383,4 @@ subtitlesInput.addEventListener('keydown', (e) => {
 
 
 // End of code and second event listener for DOM content loaded
-
 });
