@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    //const extensionId = chrome.runtime.id;
-    //const createTab = document.getElementById("createTab");
+    const extensionId = chrome.runtime.id;
+    const createTab = document.getElementById("createTab");
     const dialogOverlay = document.getElementById('dialogOverlay');
     const chooseFileBtn = document.getElementById('chooseFileBtn');
     const enterUrlBtn = document.getElementById('enterUrlBtn');
@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let hls = null
     let player = null
 
-    /*createTab.addEventListener("click", async () => {
+    createTab.addEventListener("click", async () => {
        window.open(`chrome-extension://${extensionId}/simpliplay.html`) 
-    });*/
+    });
 
 
     // Update media volume when the slider is moved
