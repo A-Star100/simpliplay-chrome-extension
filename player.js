@@ -236,6 +236,7 @@ submitUrlBtn.addEventListener('click', () => {
     
         // Hide dialog after selecting a file
         dialogOverlay.style.display = 'none';
+        fileInput.value = '';
     });
     
 
